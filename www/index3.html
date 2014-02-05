@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <title>Curso Phonegap</title>
+        <script type="text/javascript" src="js/vendor/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/cursoPhonegap.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <button class="button dh left" id="back2"><< Back</button>
+            <h1>Device Info Sample</h1>
+            <button class="button dh right" id="next3">Next >></button>
+        </header>
+        <div class="content">
+            <h2>LocalStorage</h2>
+            <div class="input-area ch20">
+                 <div class="desc">Insert Variable</div>
+                 <input id="variableNameInput" class="inputBox" type="text" placeholder="Enter the variable name" />
+                 <input id="valueInput" class="inputBox" type="number" placeholder="Enter the variable value" />
+                 <button class="button dh" id="insertVariable">Insert Record</button>
+            </div>
+            <div class="input-area ch20">
+                <div class="desc">Search or remove variable</div>
+                <input id="getRemoveVariableNameInput" class="inputBox" type="text" placeholder="Enter name to search for a variable" />
+                <input id="result" class="inputBox" readonly="readonly" placeholder="Result">
+                <button class="button dh" id="searchVariable">Search</button>
+                <button class="button dh" id="removeVariable">Remove</button>
+                <button class="button dh" id="clearLocalStorage">Clear Local Storage</button>
+            </div>
+            <h2>WebSQL</h2>
+            <div class="input-area ch10">
+                <input class="inputBox" type="text" id="todo" placeholder="Add New Item" />
+                <button class="button" id="addButton" onclick="addTodo(); return false;">Add</button>
+            </div>
+            <div class="result-area ch30">
+                <div class="results">
+                    <div class="desc">Todo List:</div>
+                    <ul id="todoItems"></ul>
+                </div>
+                <div class="separator"></div>
+            </div>             
+        </div>
+    </body>
+    <footer class="footer">
+        <div>Cordova API Samples</div>
+    </footer>
+</html>
