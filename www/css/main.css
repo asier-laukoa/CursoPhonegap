@@ -197,6 +197,12 @@ body
     font-size:14px;
 }
 
+h2{
+    -webkit-user-select:none;
+    user-select: none;
+
+}
+
 /*button*/
 .button
 {
@@ -210,6 +216,8 @@ body
     height: 32px;
     display: inline;
     float: left;
+    -webkit-user-select:none;
+    user-select: none;
 }
      
 .button:active
