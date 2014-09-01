@@ -282,7 +282,7 @@ function onDeviceReady() {
 									}
 									else {
 										if (device.platform == 'Android') {
-											window.plugins.fileOpener.open("file:///sdcard/whitepaper-mobile-developer-guidance.pdf");
+											window.plugins.fileOpener.open("file:///sdcard/cursoPhonegapDocs/whitepaper-mobile-developer-guidance.pdf");
 										}
 										else
 											window.open("whitepaper-mobile-developer-guidance.pdf", "_blank");
