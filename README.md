@@ -1,4 +1,4 @@
 CursoPhonegap
 =============
 
-Aplicación de ejemplo para Phonegap 3.3
+Aplicación de ejemplo para Phonegap 3.5
