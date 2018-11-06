@@ -1,4 +1,4 @@
-CursoPhonegap
+CursoCordova
 =============
 
-Aplicación de ejemplo para Phonegap 3.5
+Aplicación de ejemplo para Cordova 8.0
